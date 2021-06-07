@@ -1,0 +1,22 @@
+
+/* h1{color: blue;}
+#i1{color: red;}
+#p1{margin-top: -19px;}
+#p2{margin-top: -15px;}
+#p3{margin-top: -15px;}
+#p4{margin-top: -17px;}
+#p5{margin-top: -15px;}
+#g1{margin-top: -15px;}
+#container{}
+.bamboo {background-color: orange; margin-right: 10px; margin-top: -15px;}
+.persimmon{margin-top: -19px;}
+.cassiassed{} */
+
+/* *{margin: 0;}
+#container{width: 900px;}
+h1{color: blue;}
+h1+p>span{color: red;}
+.bamboo{background: orange;} */
+
+a {color: #0f0; font-size: 50px; text-decoration: none;}
+a:hover{color: #00f;}
