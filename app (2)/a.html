@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src='main_stack.js'></script>
+        <style type ="text/css">
+          #side_left{
+            width:200px;
+            height:400px;
+            background-color:gray;
+            float:left;
+            margin:5px;
+          }
+          #side_right{
+            width:200px;
+            height:400px;
+            background-color:yellow;
+            float:left;
+            margin:5px;
+          }
+          #form_box{
+            clear:both;
+            margin:5px;
+          }
+          p {
+            clear:both;
+            margin:5px;
+          }
+
+        </style>
+    </head>
+    <body>
+      <p> 하노이의 탑 </p>
+      <div id="form_box">
+        <div id="side_left">
+          <p>첫번째 영역</p>
+
+        </div>
+        <div id="side_right">
+          <p>두번째 영역</p>
+        </div>
+      </div>
+
+      <form id="form_box" method="get" action="form-action.html">
+        <label><input id="radio_toRight" type="radio" name="hanoi">→</label>
+        <label><input id="radio_toLeft" type="radio" name="hanoi">←</label>
+        <p>
+          <input id="button_submit" type="button" value="Move" onclick="Move();">
+          <input id="button_reset" type="button" value="Reset" onclick="Init();">
+        </p>
+      </form>
+
+    </body>
+</html>
